@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="215dp"
+    android:layout_height="280dp"
+    tools:context=".PopUpActivity"
+    android:layout_gravity="center"
+    android:background="#deefe0"
+    android:theme="@android:style/Theme.Dialog">
+
+    <Button
+        android:id="@+id/popup_makechanges"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Make Changes"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons_green"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <Button
+        android:id="@+id/popup_delete"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/popup_makechanges"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons_green"
+        android:text="Delete Post" />
+
+    <Button
+        android:id="@+id/popup_share"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/popup_delete"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/buttons_green"
+        android:text="Share Post" />
+
+    <Button
+        android:id="@+id/popup_report"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/popup_share"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons_green"
+        android:text="Report" />
+</RelativeLayout>

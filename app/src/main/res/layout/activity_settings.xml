@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#deefe0"
+    tools:context=".SettingsActivity">
+
+    <include
+        android:id="@+id/settings_toolbar"
+        layout="@layout/app_bar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/settings_profileimage"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="35dp"
+                android:src="@drawable/add_profile_picture"
+                android:layout_centerHorizontal="true"/>
+            <EditText
+                android:id="@+id/settings_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/inputs"
+                android:gravity="center"
+                android:hint="OneWordDescription"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_below="@id/settings_profileimage"/>
+            <EditText
+            android:id="@+id/settings_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/username"
+                android:drawablePadding="5dp"
+            android:background="@drawable/inputs"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_below="@id/settings_status"/>
+
+            <EditText
+                android:id="@+id/settings_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/inputs"
+                android:hint="Fullname"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_below="@id/settings_username"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="5dp"/>
+
+            <EditText
+            android:id="@+id/settings_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/inputs"
+            android:hint="Country"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_below="@id/settings_fullname"
+                android:drawableLeft="@drawable/country"
+                android:drawablePadding="5dp"
+                />
+
+            <EditText
+                android:id="@+id/settings_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/inputs"
+                android:hint="Date of Birth"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_below="@id/settings_country"
+                android:drawableLeft="@drawable/calender"
+                android:drawablePadding="5dp"
+                />
+
+            <EditText
+                android:id="@+id/settings_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/inputs"
+                android:hint="Gender"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_below="@id/settings_dob"
+                android:drawableLeft="@drawable/gender"
+                android:drawablePadding="5dp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="143dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="149dp"
+                android:text="Change Profile Picture" />
+
+            <Button
+                android:id="@+id/settings_update_profile_button"
+                android:layout_below="@id/settings_gender"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_width="145dp"
+                android:padding="2dp"
+                android:text="Update Account"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/buttons_green"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

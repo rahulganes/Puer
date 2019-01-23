@@ -1,0 +1,216 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Anxiety_symptoms">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:layout_marginTop="-10dp"
+                android:text="Signs and Symptoms"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anxiety_symptoms" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="A parent or teacher may see signs that a child or teen is anxious. For example, a kid might cling, miss school, or cry. They might act scared or upset, or refuse to talk or do things. Kids and teens with anxiety also feel symptoms that others can't see. It can make them feel afraid, worried, or nervous.\n\nIt can affect their body too. They might feel shaky, jittery, or short of breath. They may feel 'butterflies' in their stomach, a hot face, clammy hands, dry mouth, or a racing heart.\n\nThese symptoms of anxiety are the result of the 'fight or flight' response. This is the body's normal response to danger. It triggers the release of natural chemicals in the body. These chemicals prepare us to deal with a real danger. They affect heart rate, breathing, muscles, nerves, and digestion. This response is meant to protect us from danger. But with anxiety disorders, the 'fight or flight' response is overactive. It happens even when there is no real danger." />
+
+            <TextView
+                android:id="@+id/generalized_anxiety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/LinearLayout02"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:padding="0dp"
+                android:text="Generalized Anxiety Disorder"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/overview_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="People with generalized anxiety disorder (GAD) display excessive anxiety or worry, most days for at least 6 months, about a number of things such as personal health, work, social interactions, and everyday routine life circumstances. The fear and anxiety can cause significant problems in areas of their life, such as social interactions, school, and work.
+
+\n\nGeneralized anxiety disorder symptoms include:
+
+    \n\n1.\tFeeling restless, wound-up, or on-edge
+    \n\n2.\tBeing easily fatigued
+    \n\n3.\tHaving difficulty concentrating; mind going blank
+    \n\n\4.\tBeing irritable
+    \n\n5.\tHaving muscle tension
+    \n\n6.\tDifficulty controlling feelings of worry
+    \n\n7.\tHaving sleep problems, such as difficulty falling or staying asleep, restlessness, or unsatisfying sleep
+"></TextView>
+
+            <TextView
+                android:id="@+id/panic_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Panic Disorder"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/pd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="People with panic disorder have recurrent unexpected panic attacks. Panic attacks are sudden periods of intense fear that come on quickly and reach their peak within minutes. Attacks can occur unexpectedly or can be brought on by a trigger, such as a feared object or situation.\n\nDuring a panic attack, people may experience:\n\nHeart palpitations, a pounding heartbeat, or an accelerated heartrate\n\n1. \tSweating\n\n2. \tTrembling or shaking\n\n3. \tSensations of shortness of breath, smothering, or choking\n\n4. \tFeelings of impending doom\n\n5. \tFeelings of being out of control\n\nPeople with panic disorder often worry about when the next attack will happen and actively try to prevent future attacks by avoiding places, situations, or behaviors they associate with panic attacks. Worry about panic attacks, and the effort spent trying to avoid attacks, cause significant problems in various areas of the person’s life, including the development of agoraphobia"></TextView>
+
+            <TextView
+                android:id="@+id/phobia_related_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Phobia-related Disorder"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="A phobia is an intense fear of—or aversion to—specific objects or situations. Although it can be realistic to be anxious in some circumstances, the fear people with phobias feel is out of proportion to the actual danger caused by the situation or object.\n\nPeople with a phobia:\n\n1.\tMay have an irrational or excessive worry about encountering the feared object or situation\n\n2.\tTake active steps to avoid the feared object or situation\n\n3.\tExperience immediate intense anxiety upon encountering the feared object or situation\n\n4.\tEndure unavoidable objects and situations with intense anxiety\n\nThere are several types of phobias and phobia-related disorders:\n\nSpecific Phobias (sometimes called simple phobias): As the name suggests, people who have a specific phobia have an intense fear of, or feel intense anxiety about, specific types of objects or situations. Some examples of specific phobias include the fear of:\n\n1.\tFlying\n\n2.\tHeights\n\n3.\tSpecific animals, such as spiders, dogs, or snakes\n\n4.\tReceiving injections\n\n5.\tBlood
+"></TextView>
+
+            <TextView
+                android:id="@+id/social_anxiety_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Social Anxiety Disorder"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="People with social anxiety disorder have a general intense fear of, or anxiety toward, social or performance situations. They worry that actions or behaviors associated with their anxiety will be negatively evaluated by others, leading them to feel embarrassed. This worry often causes people with social anxiety to avoid social situations. Social anxiety disorder can manifest in a range of situations, such as within the workplace or the school environment."></TextView>
+
+            <TextView
+                android:id="@+id/agoraphobia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Agoraphobia"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sgoraphobia_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="People with agoraphobia have an intense fear of two or more of the following situations:\n\n1.\tUsing public transportation\n\n2.\tBeing in open spaces\n\n3.\tBeing in enclosed spaces\n\n4.\tStanding in line or being in a crowd\n\n5.\tBeing outside of the home alone\n\nPeople with agoraphobia often avoid these situations, in part, because they think being able to leave might be difficult or impossible in the event they have panic-like reactions or other embarrassing symptoms. In the most severe form of agoraphobia, an individual can become housebound."></TextView>
+
+            <TextView
+                android:id="@+id/seperation_anxiety_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Seperation Anxiety Disorder"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sepad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="Separation anxiety is often thought of as something that only children deal with; however, adults can also be diagnosed with separation anxiety disorder. People who have separation anxiety disorder have fears about being parted from people to whom they are attached. They often worry that some sort of harm or something untoward will happen to their attachment figures while they are separated. This fear leads them to avoid being separated from their attachment figures and to avoid being alone. People with separation anxiety may have nightmares about being separated from attachment figures or experience physical symptoms when separation occurs or is anticipated."></TextView>
+
+            <TextView
+                android:id="@+id/selective_mutism"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Selective Mutism"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sm_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="A somewhat rare disorder associated with anxiety is selective mutism. Selective mutism occurs when people fail to speak in specific social situations despite having normal language skills. Selective mutism usually occurs before the age of 5 and is often associated with extreme shyness, fear of social embarrassment, compulsive traits, withdrawal, clinging behavior, and temper tantrums. People diagnosed with selective mutism are often also diagnosed with other anxiety disorders.\n"></TextView>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

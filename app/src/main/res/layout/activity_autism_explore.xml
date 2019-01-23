@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView_anxiety"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Autism_explore">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_autism_explore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_autism_explore"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_marginTop="13dp"
+                android:text="Explore"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/autism_explore" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:text=" Autism is a complex neurobehavioral condition that includes impairments in social interaction and developmental language and communication skills combined with rigid, repetitive behaviors. Because of the range of symptoms, this condition is now called autism spectrum disorder (ASD). It covers a large spectrum of symptoms, skills, and levels of impairment. ASD ranges in severity from a handicap that somewhat limits an otherwise normal life to a devastating disability that may require institutional care.\n\nChildren with autism have trouble communicating. They have trouble understanding what other people think and feel. This makes it very hard for them to express themselves either with words or through gestures, facial expressions, and touch.\n\nA child with ASD who is very sensitive may be greatly troubled -- sometimes even pained -- by sounds, touches, smells, or sights that seem normal to others." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="History of Autism" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="From the early 1900s, autism has referred to a range of neuro-psychological conditions. But where did the term come from, and how has knowledge about autism changed? Read on to learn about the history and the current understanding of this challenging condition.\n\nThe word 'autism' comes from the Greek word 'autos,' which means 'self.' It describes conditions in which a person is removed from social interaction. In other words, he becomes an 'isolated self.'\n\nEugen Bleuler, a Swiss psychiatrist, was the first person to use the term. He started using it around 1911 to refer to one group of symptoms related to schizophrenia.\n\nIn the 1940s, researchers in the United States began to use 'autism' to describe children with emotional or social problems. Leo Kanner, a doctor from Johns Hopkins University, used it to explain the behavior of several children he studied who acted withdrawn.
+Autism and schizophrenia remained linked in many researchers’ minds until the 1960s. It was only then that medical professionals began to have a separate understanding of autism in children.\n\nFrom the 1960s through the 1970s, research into treatments for autism focused on medications such as LSD, electric shock, and behavioral change techniques. The latter relied on pain and punishment.\n\nDuring the 1980s and 1990s, the role of behavioral therapy and the use of highly controlled learning environments emerged as the primary treatments for many forms of autism and related conditions. Currently, the cornerstones of autism therapy are behavioral therapy and language therapy. Other treatments are added as needed."
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout></ScrollView>

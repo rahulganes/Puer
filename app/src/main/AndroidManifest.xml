@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puer.rahul.puer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Entry" />
+        <activity android:name=".Attention" />
+        <activity android:name=".Attention_explore" />
+        <activity android:name=".Anxiety" />
+        <activity android:name=".Attention_therapy" />
+        <activity android:name=".add_symptoms" />
+        <activity android:name=".Attention_forum" />
+        <activity android:name=".Anxiety_explore" />
+        <activity android:name=".Anxiety_symptoms" />
+        <activity android:name=".Anxiety_therapy" />
+        <activity android:name=".Autism" />
+        <activity android:name=".Autism_explore" />
+        <activity android:name=".Autism_symptoms" />
+        <activity android:name=".Autism_therapy" />
+        <activity android:name=".Anxiety_forum" />
+        <activity android:name=".Schizophrenia" />
+        <activity android:name=".Autism_forum" />
+        <activity android:name=".Schizophrenia_explore" />
+        <activity android:name=".Schizophrenia_symptoms" />
+        <activity android:name=".Schizophrenia_therapy" />
+        <activity android:name=".Schizophrenia_forum" />
+        <activity android:name=".forum" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".setupActivity" />
+        <activity android:name=".home_actiivty" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <activity android:name=".postActivity" />
+        <activity android:name=".ClickPostActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".home_actiivty" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".FindFriends"
+            android:parentActivityName=".home_actiivty"></activity>
+    </application>
+
+</manifest>

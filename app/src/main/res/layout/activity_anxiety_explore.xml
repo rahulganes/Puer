@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Anxiety_explore">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:id="@+id/explore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="Explore"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/anxiety_wc" />
+
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/LinearLayout01"
+                android:layout_marginLeft="20dp"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:text="Overview"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/overview_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:includeFontPadding="false"
+                android:text="Occasional anxiety is an expected part of life. You might feel anxious when faced with a problem at work, before taking a test, or before making an important decision. But anxiety disorders involve more than temporary worry or fear. For a person with an anxiety disorder, the anxiety does not go away and can get worse over time. The symptoms can interfere with daily activities such as job performance, school work, and relationships.\n\nThere are several types of anxiety disorders, including generalized anxiety disorder, panic disorder, and various phobia-related disorders."></TextView>
+
+            <TextView
+                android:id="@+id/risk_factor"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Risk Factors"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/riskfactor_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:includeFontPadding="false"
+                android:text="Researchers are finding that both genetic and environmental factors contribute to the risk of developing an anxiety disorder. Although the risk factors for each type of anxiety disorder can vary, some general risk factors for all types of anxiety disorders include:
+
+    \n\n1. Temperamental traits of shyness or behavioral inhibition in childhood
+    \n\n2.  Exposure to stressful and negative life or environmental events in early childhood or adulthood
+    \n\n3.  A history of anxiety or other mental illnesses in biological relatives
+    \n\n4.  Some physical health conditions, such as thyroid problems or heart arrhythmias, or caffeine or other substances/medications, can produce or aggravate anxiety symptoms; a physical health examination is helpful in the evaluation of a possible anxiety disorder."></TextView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

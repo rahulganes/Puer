@@ -1,0 +1,188 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Anxiety_symptoms">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:layout_marginTop="-10dp"
+                android:text="Signs and Symptoms"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/autism_therapy_1" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Schizophrenia involves a range of problems with thinking, behavior or emotions. Signs and symptoms may vary, but usually involve delusions, hallucinations or disorganized speech, and reflect an impaired ability to function. The effect can be disabling.\n\nSchizophrenia symptoms generally start in the mid- to late 20s. It's uncommon for children to be diagnosed with schizophrenia. Early-onset schizophrenia occurs before age 18. Very early-onset schizophrenia in children younger than age 13 is extremely rare.\n\nSymptoms can vary in type and severity over time, with periods of worsening and remission of symptoms. Some symptoms may always be present. Schizophrenia can be difficult to recognize in the early phases." />
+
+            <TextView
+                android:id="@+id/generalized_anxiety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/LinearLayout02"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:padding="0dp"
+                android:text="Early signs and symptoms"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/overview_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="The earliest indications of childhood schizophrenia may include developmental problems, such as:\n\n1.Language delays\n\n2.Late or unusual crawling\n\n3.Late walking\n\nOther abnormal motor behaviors — for example, rocking or arm flapping\n\nSome of these signs and symptoms are also common in children with pervasive developmental disorders, such as autism spectrum disorder. So ruling out these developmental disorders is one of the first steps in diagnosis."></TextView>
+
+            <TextView
+                android:id="@+id/panic_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Symptoms in Teenager"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/pd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="Schizophrenia symptoms in teenagers are similar to those in adults, but the condition may be more difficult to recognize in this age group. This may be in part because some of the early symptoms of schizophrenia in teenagers are common for typical development during teen years, such as:\n\n1.Withdrawal from friends and family\n\n2.A drop in performance at school\n\n3.Trouble sleeping\n\n4.Irritability or depressed mood\n\n5.Lack of motivation\n\n6.Strange behavior\n\n7.Substance use\n\nCompared with schizophrenia symptoms in adults, teens may be:\n\n1.Less likely to have delusions\n\n2.More likely to have visual hallucinations"></TextView>
+
+            <TextView
+                android:id="@+id/phobia_related_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Later signs and symptoms"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="As children with schizophrenia age, more typical signs and symptoms of the disorder begin to appear. Signs and symptoms may include:\n\n1. Delusions : These are false beliefs that are not based in reality. For example, you think that you're being harmed or harassed; that certain gestures or comments are directed at you; that you have exceptional ability or fame; that another person is in love with you; or that a major catastrophe is about to occur. Delusions occur in most people with schizophrenia.\n\n2. Hallucinations : These usually involve seeing or hearing things that don't exist. Yet for the person with schizophrenia, hallucinations have the full force and impact of a normal experience. Hallucinations can be in any of the senses, but hearing voices is the most common hallucination.\n\n3. Disorganized thinking : Disorganized thinking is inferred from disorganized speech. Effective communication can be impaired, and answers to questions may be partially or completely unrelated. Rarely, speech may include putting together meaningless words that can't be understood, sometimes known as word salad.\n\n4. Extremely disorganized or abnormal motor behavior : This may show in several ways, from childlike silliness to unpredictable agitation. Behavior is not focused on a goal, which makes it hard to do tasks. Behavior can include resistance to instructions, inappropriate or bizarre posture, a complete lack of response, or useless and excessive movement.\n\n5. Negative symptoms : This refers to reduced or lack of ability to function normally. For example, the person may neglect personal hygiene or appear to lack emotion ― doesn't make eye contact, doesn't change facial expressions, speaks in a monotone, or doesn't add hand or head movements that normally occur when speaking. Also, the person may have reduced ability to engage in activities, such as a loss of interest in everyday activities, social withdrawal or lack ability to experience pleasure."></TextView>
+
+            <TextView
+                android:id="@+id/social_anxiety_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Symptoms may be difficult to interpret"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="When childhood schizophrenia begins early in life, symptoms may build up gradually. The early signs and symptoms may be so vague that you can't recognize what's wrong, or you may attribute them to a developmental phase.\n\nAs time goes on, symptoms may become more severe and more noticeable. Eventually, your child may develop the symptoms of psychosis, including hallucinations, delusions and difficulty organizing thoughts. As thoughts become more disorganized, there's often a 'break from reality' (psychosis) frequently requiring hospitalization and treatment with medication. "></TextView>
+
+            <TextView
+                android:id="@+id/agoraphobia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="When to see a doctor"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sgoraphobia_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:text="It can be difficult to know how to handle vague behavioral changes in your child. You may be afraid of rushing to conclusions that label your child with a mental illness. Your child's teacher or other school staff may alert you to changes in your child's behavior.\n\nSeek medical advice if your child:\n\n1.Has developmental delays compared with other siblings or peers\n\n2.Has stopped meeting daily expectations, such as bathing or dressing\n\n3.No longer wants to socialize\n\n4.Is slipping in academic performance\n\n5.Has strange eating rituals\n\n6.Shows excessive suspicion of others\n\n7.Shows a lack of emotion or shows emotions inappropriate for the situation\n\n8.Has strange ideas and fears\n\n9.Confuses dreams or television for reality\n\n10.Has bizarre ideas, behavior or speech\n\n11.Has violent or aggressive behavior or agitation\n\nThese general signs and symptoms don't necessarily mean your child has childhood schizophrenia. These could indicate a phase, another mental health disorder such as depression or an anxiety disorder, or a medical condition. Seek medical care as soon as possible if you have concerns about your child's behavior or development"></TextView>
+
+            <TextView
+                android:id="@+id/seperation_anxiety_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Suicidal thoughts and behavior"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sepad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="10dp"
+                android:maxLines="50"
+                android:text="Suicidal thoughts and behavior are common among people with schizophrenia. If you have a child or teen who is in danger of attempting suicide or has made a suicide attempt, make sure someone stays with him or her. Call 911 or your local emergency number immediately. Or if you think you can do so safely, take your child to the nearest hospital emergency room."></TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

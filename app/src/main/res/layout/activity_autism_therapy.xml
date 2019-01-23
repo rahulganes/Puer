@@ -1,0 +1,258 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView_autism"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Autism_therapy">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_autism"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_autism"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:id="@+id/therapy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="Treatment and Therapy"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="191dp"
+                android:layout_height="227dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/autism_therapy" />
+            <TextView
+                android:id="@+id/pyschotherapy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:includeFontPadding="false"
+                android:text="Even if your child hasn’t officially been diagnosed with autism spectrum disorder, he may still benefit from certain treatments. The Individuals with Disabilities Education Act (IDEA) makes those treatments possible for children under age 3 who may be at risk for developmental problems.\n\nhe type of treatment your child receives for autism spectrum disorder depends on his individual needs. Because ASD is a spectrum disorder (meaning some children have mild symptoms and others have severe symptoms) and each child who has it is unique, there are a variety of treatments.\n\nThey can include different kinds of therapies to improve speech and behavior, and sometimes medications to help manage any medical conditions related to autism.\n\nThe treatments your child can benefit from most depends on his situation and needs, but the goal is the same: to reduce his symptoms and improve his learning and development."></TextView>
+
+
+
+            <TextView
+                android:id="@+id/bct_therapy"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Behavior and Communication Treatments"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cognitive_behavioral_therapy"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Applied Behavior Analysis (ABA)"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cognitive_behavioral_therapy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:maxLines="50"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="ABA is often used in schools and clinics to help your child learn positive behaviors and reduce negative ones. This approach can be used to improve a wide range of skills, and there are different types for different situations, including:\n\n1.Discrete trial training (DTT) uses simple lessons and positive reinforcement.\n\n2.Pivotal response training (PRT) helps develop motivation to learn and communicate.\n\n3.Early intensive behavioral intervention (EIBI) is best for children under age 5.\n\n4.Verbal behavior intervention (VBI) focuses on language skills."></TextView>
+
+            <WebView
+                android:id="@+id/yt_autism_therapy_1"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+
+            <TextView
+                android:id="@+id/dir"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Developmental, Individual Differences, Relationship-Based Approach (DIR)"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="This kind of treatment is better known as Floortime. That’s because it involves you getting on the floor with your child to play and do the activities he likes.\n\nIt’s meant to support emotional and intellectual growth by helping him learn skills around communication and emotions."></TextView>
+            <WebView
+                android:id="@+id/yt_autism_therapy_2"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/teachh"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Treatment and Education of Autistic and Related Communication-handicapped Children (TEACCH)"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/teachh_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="This treatment uses visual cues such as picture cards to help your child learn everyday skills like getting dressed. Information is broken down into small steps so he can learn it more easily."></TextView>
+            <WebView
+                android:id="@+id/yt_autism_therapy_3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/pecs"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="The Picture Exchange Communication System (PECS)"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/pecs_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="This is another visual-based treatment, but it uses symbols instead of picture cards. Your child learns to ask questions and communicate through special symbols."></TextView>
+            <WebView
+                android:id="@+id/yt_autism_therapy_4"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/ot"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Occupational Therapy"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/ot_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="This kind of treatment helps your child learn life skills like feeding and dressing himself, bathing, and understanding how to relate to other people. The skills he learns are meant to help him live as independently as he can."></TextView>
+            <WebView
+                android:id="@+id/yt_autism_therapy_5"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/st"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Sensory Integration Therapy"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/st_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="If your child is easily upset by things like bright lights, certain sounds, or the feeling of being touched, this therapy can help him learn to deal with that kind of sensory information."></TextView>
+            <WebView
+                android:id="@+id/yt_autism_therapy_6"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/nutrition"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Nutrition"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/nutrition_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="Experts don’t recommend any specific diets for children with autism spectrum disorder, but getting proper nutrition is important. Sometimes kids with ASD restrict their food or parents try eliminating things like gluten to see if it helps symptoms improve.\n\nHowever, there is no research that has proven that removing gluten or casein (proteins in wheat and milk products) from their diet is a helpful treatment for ASD, and limiting foods like dairy can prevent proper bone development.\n\nKids with autism spectrum disorder tend to have thinner bones than kids without it, so bone-building foods are important. You might want to work with a nutritionist or registered dietitian to develop a healthy eating plan."></TextView>
+            <WebView
+                android:id="@+id/yt_autism_therapy_7"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

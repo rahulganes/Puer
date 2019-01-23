@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Schizophrenia_explore">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_schizo_explore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_schizo_explore"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:id="@+id/explore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="Explore"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/schizophrenia_explore" />
+
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/LinearLayout01"
+                android:layout_marginLeft="20dp"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:text="Overview"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/overview_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:includeFontPadding="false"
+                android:text="Childhood schizophrenia is an uncommon but severe mental disorder in which children interpret reality abnormally. Schizophrenia involves a range of problems with thinking (cognitive), behavior or emotions. It may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs your child's ability to function.\n\nChildhood schizophrenia is essentially the same as schizophrenia in adults, but it occurs early in life and has a profound impact on a child's behavior and development. With childhood schizophrenia, the early age of onset presents special challenges for diagnosis, treatment, education, and emotional and social development.\n\nSchizophrenia is a chronic condition that requires lifelong treatment. Identifying and starting treatment for childhood schizophrenia as early as possible may significantly improve your child's long-term outcome."></TextView>
+
+            <TextView
+                android:id="@+id/risk_factor"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="History of Schizophrenia"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/riskfactor_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Sante De Sanctis first wrote about child psychoses, in 1905. He called the condition 'dementia praecocissima' (Latin, 'very premature madness'), by analogy to the term then used for schizophrenia, 'dementia praecox' (Latin, 'premature madness). Sante de Sanctis characterized the condition by the presence of catatonia. Philip Bromberg thinks that 'dementia praecocissima' is in some cases indistinguishable from childhood schizophrenia, and Leo Kanner believed that 'dementia praecocissima' encompassed a number of pathological conditions.\n\nTheodor Heller discovered a new syndrome dementia infantilis (Latin, 'infantile madness') in 1909. In the modern ICD-10 'Heller syndrome' is classified under the rubric F84.3 'other childhood disintegrative disorder'.\n\nAlso in 1909, Julius Raecke reported on ten cases of catatonia in children at the Psychiatric and Neurological Hospital of Kiel University, where he worked. He described symptoms similar to those previously recorded by Dr. Karl Ludwig Kahlbaum, including 'stereotypies and bizarre urges, impulsive motor eruptions and blind apathy.' He also reported refusal to eat, stupor with mutism, uncleanliness, indications of waxy flexibility and unmotivated eccentricity, and childish behavior.\n\nA 1913 paper by Karl Pönitz, 'Contribution to the Recognition of Early Catatonia', recounts a case study of a boy who manifested 'typical catatonia' from the age of twelve, characterizing him as showing a 'clear picture of schizophrenia.'\n\nUntil the late nineteenth century, children were often diagnosed as suffering from psychosis like schizophrenia, but instead were said to suffer from 'pubescent' or 'developmental' insanity. Through the 1950s, childhood psychosis began to become more and more common, and psychiatrists began to take a deeper look into the issue.\n\nBefore 1980 the literature on 'childhood schizophrenia' often described a 'heterogeneous mixture' of different disorders, such as autism, symbiotic psychosis or psychotic disorder other than schizophrenia, pervasive developmental disorders and dementia infantilis. At the current time, however, some researchers, regarded autism (autistic disorder) and schizophrenia as two distinct entities. "></TextView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

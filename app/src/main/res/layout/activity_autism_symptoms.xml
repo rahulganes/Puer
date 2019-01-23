@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Autism_symptoms">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:layout_marginTop="-10dp"
+                android:text="Signs and Symptoms"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="297dp"
+                android:layout_height="249dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/autism_symptoms" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Autism spectrum disorder (ASD) can look different in different people. It’s a developmental disability that affects the way people communicate, behave, or interact with others. There’s no single cause for it, and symptoms can be very mild or very severe. \n\nSome children who are on the spectrum start showing signs as young as a few months old. Others seem to have normal development for the first few months or years of their lives and then they start showing symptoms.\n\nBut up to half of parents of children with ASD noticed issues by the time their child reached 12 months, and between 80% and 90% noticed problems by 2 years. Children with ASD will have symptoms throughout their lives, but it’s possible for them to get better as they get older.\n\nThe autism spectrum is very wide. Some people might have very noticeable issues, others might not. The common thread is differences in social skills, communication, and behavior compared with people who aren’t on the spectrum." />
+
+            <TextView
+                android:id="@+id/autism_social_skills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/LinearLayout02"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:padding="0dp"
+                android:text="Social Skills"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/autism_social_skills_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="A child with ASD has a hard time interacting with others. Problems with social skills are some of the most common signs. He might want to have close relationships but not know how.\n\nIf your child is on the spectrum, he might show some social symptoms by the time he’s 8 to 10 months old. These may include any of the following:\n\n1.\tHe can’t respond to his name by his first birthday.\n\n2.\tPlaying, sharing, or talking with other people doesn’t interest him.\n\n3.\tHe prefers to be alone.\n\n4.\tHe avoids or rejects physical contact.\n\n5.\tHe avoids eye contact.\n\n6.\tWhen he’s upset, he doesn’t like to be comforted.\n\n7.\tHe doesn’t understand emotions -- his own or others’.\n\n8.He may not stretch out his arms to be picked up or guided with walking.
+"></TextView>
+
+            <TextView
+                android:id="@+id/panic_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Patterns of Behavior"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/pd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:layout_marginRight="20dip"
+                android:maxLines="50"
+                android:text="Children with ASD also act in ways that seem unusual or have interests that aren’t typical. Examples of this can include:\n\n1.Repetitive behaviors like hand-flapping, rocking, jumping, or twirling\n\n2.Constant moving (pacing) and 'hyper' behavior\n\n3.Fixations on certain activities or objects\n\n4.Specific routines or rituals (and getting upset when a routine is changed, even slightly)\n\n5.Extreme sensitivity to touch, light, and sound\n\n6.Not taking part in 'make-believe' play or imitating others’ behaviors\n\n7.Fussy eating habits\n\n8.Lack of coordination, clumsiness\n\n9.Impulsiveness (acting without thinking)\n\n10.Aggressive behavior, both with self and others\n\n11.Short attention span"></TextView>
+
+            <TextView
+                android:id="@+id/phobia_related_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Communication"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:text="
+About 40% of kids with autism spectrum disorders don’t talk at all, and between 25% and 30% develop some language skills during infancy but then lose them later. Some children with ASD start talking later in life.\n\nMost have some problems with communication, including these:\n\n1.Delayed speech and language skills\n\n2.Flat, robotic speaking voice, or singsong voice\n\n3.Echolalia (repeating the same phrase over and over)\n\n4.Problems with pronouns (saying “you” instead of “I,” for example)\n\n5.Not using or rarely using common gestures (pointing or waving), and not responding to them\n\n6.Inability to stay on topic when talking or answering questions\n\n7.Not recognizing sarcasm or joking"></TextView>
+
+            <TextView
+                android:id="@+id/social_anxiety_disorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Make an Early catch"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/sad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:maxLines="50"
+                android:text="Make an appointment with your child’s pediatrician if he doesn’t meet these specific developmental milestones, or if he meets but loses them later on:\n\n1.Smiles by 6 months\n\n2.Imitates facial expressions or sounds by 9 months\n\n3.Coos or babbles by 12 months\n\n4.Gestures (points or waves) by 14 months\n\n5.Speaks with single words by 18 months and uses phrases of two words or more by 24 months\n\n6.Plays pretend or “make-believe” by 18 months"></TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

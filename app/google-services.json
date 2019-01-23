@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882005340632",
+    "firebase_url": "https://puer-1a11f.firebaseio.com",
+    "project_id": "puer-1a11f",
+    "storage_bucket": "puer-1a11f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882005340632:android:0203f18dcd6dd88e",
+        "android_client_info": {
+          "package_name": "com.puer.rahul.puer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882005340632-th4cgd44o21t4amde6jcph38dhcfecq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.puer.rahul.puer",
+            "certificate_hash": "ce90a735fdacb4b4cbdfa583be9173974b1dec86"
+          }
+        },
+        {
+          "client_id": "882005340632-vb06tgs6c15fa4dmspbvakgs48q62arb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXRuXaQy1A-4cOjAn7ZPEtnhlEAbfewVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882005340632-vb06tgs6c15fa4dmspbvakgs48q62arb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

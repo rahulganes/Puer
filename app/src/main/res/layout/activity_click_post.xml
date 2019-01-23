@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#deefe0"
+    tools:context=".ClickPostActivity">
+
+    <include
+        android:id="@+id/click_post_page_toolbar"
+        layout="@layout/app_bar_layout"
+        />
+
+
+    <ImageView
+        android:id="@+id/editPostImage"
+        android:layout_width="247dp"
+        android:layout_height="238dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:background="#D3D3D3"
+        android:scaleType="fitCenter"
+        android:padding="3dp"
+        style="@style/Widget.AppCompat.Button"
+        app:srcCompat="@drawable/select_image_1" />
+
+    <EditText
+        android:id="@+id/edit_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPostImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="Write about Something..."
+        android:inputType="textMultiLine"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/edit_post_button"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_post_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons_green"
+        android:padding="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Accept Changes"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/delete_post_button"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_post_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttons_red"
+        android:padding="2dp"
+        android:text="Delete Post"
+        android:textColor="#fff" />
+
+</RelativeLayout>

@@ -1,0 +1,272 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView_schizo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Autism_therapy">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_autism"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_autism"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:layout_marginTop="-10dp"
+                android:text="Treatment and Therapy"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="199dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/schizophrenia_therapy" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="If someone you know has schizophrenia, you know that they need help. Schizophrenia is a serious mental illness that affects their thinking, emotions, relationships, and decision making.And because there’s no cure, getting your loved one the proper treatment early is the best way to improve his chances of managing the illness.Your loved one’s treatment will center on managing his symptoms. To do that, he’ll probably need to take medication for an open-ended period of time, possibly even for life. Psychotherapy, a kind of talk therapy, will likely also be a big part of the plan to help him understand and manage his symptoms. There’s more than one kind of psychotherapy, so you’ll want to know what’s involved.
+"></TextView>
+
+            <TextView
+                android:id="@+id/bct_therapy"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Types of Psychotherapy"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cognitive_behavioral_therapy"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Individual psychotherapy "
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cognitive_behavioral_therapy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:maxLines="50"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="During sessions, a therapist or psychiatrist can teach your friend or family member how to deal with his thoughts and behaviors. He will learn more about his illness and its effect on him, as well as how to tell the difference between what’s real and what’s not. It also can help him manage everyday life."></TextView>
+
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_1"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+
+            <TextView
+                android:id="@+id/dir"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Cognitive behavior therapy (CBT)"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="This can help teach your loved one to change his thinking and behavior. His therapist will show him ways to deal with 'voices' and hallucinations. With a combination of CBT sessions and medication, he can eventually tell what triggers his psychotic episodes (times when hallucinations or delusions flare up) and how to reduce or stop them."></TextView>
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_2"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/teachh"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Cognitive enhancement therapy (CET)"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/teachh_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="This type of therapy is also called cognitive remediation. It teaches people how to better recognize social cues, or triggers, and improve their attention, memory, and ability to organize their thoughts. It combines computer-based brain training and group sessions."></TextView>
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/pecs"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Psychosocial Therapy"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/ot_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:includeFontPadding="false"
+                android:text="Social skills training"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/pecs_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="his type of instruction focuses on improving your loved one’s communication and social interactions."></TextView>
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_4"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/ot"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Rehabilitation"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/ot_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="Schizophrenia usually develops during the years we are building our careers. So his rehabilitation may include job counseling, problem-solving support, and education in money management."></TextView>
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_5"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/st"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Family education"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/st_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="Your knowledge of psychosis and schizophrenia will help your friend or family member. Research shows that people with schizophrenia who have a strong support system do better than those without the encouragement of friends and family."></TextView>
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_6"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/nutrition"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:includeFontPadding="false"
+                android:text="Self-help groups"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/nutrition_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="You should encourage your loved one to participate in community care and outreach programs to continue working on his social skills. The National Alliance on Mental Illness (NAMI) is an outreach organization that offers a free Peer-to-Peer program, for instance. It includes 10 sessions for adults with mental illness who want to learn more about their condition from people who have experienced it themselves or been through it with a loved one.\n\nCoordinated Specialty Care (CSC) is designed for people experiencing an episode of psychosis for the first time. It is a team approach. It not only combines medication and psychological therapies, it includes social  and employment services and tries to include the family whenever possible. The aim is to change the direction and prognosis for the disease by catching it in its earliest stages. Research has shown that those with schizophrenia who receive early and intensive treatment have the best long term prognosis."></TextView>
+            <WebView
+                android:id="@+id/yt_schizophrenia_therapy_7"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

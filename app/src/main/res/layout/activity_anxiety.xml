@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Anxiety">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Anxiety Disorder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="221dp"
+        android:layout_height="134dp"
+        android:layout_below="@id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        app:srcCompat="@drawable/anxiety_cartoon_1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="257dp"
+        android:layout_height="270dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-316dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/imageView14"
+        app:srcCompat="@drawable/anxiety_2" />
+
+    <Button
+        android:id="@+id/anxiety_explore"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Explore" />
+
+    <Button
+        android:id="@+id/anxiety_symptoms"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/anxiety_explore"
+        android:layout_alignStart="@+id/anxiety_explore"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Symptoms" />
+
+    <Button
+        android:id="@+id/anxiety_therapy"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/anxiety_symptoms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Therapy" />
+
+    <Button
+        android:id="@+id/anxiety_forum"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/anxiety_therapy"
+        android:text="Forum" />
+
+
+</RelativeLayout>

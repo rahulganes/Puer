@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".add_symptoms">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="31dp"
+        android:text="Signs and Symptoms"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dip"
+        android:text="1.\tInattention"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dp"
+        android:text="People with symptoms of inattention may often:      \n\n1.\tOverlook or miss details, make careless mistakes in schoolwork, at work, or during other activities     \n\n2.\tHave problems sustaining attention in tasks or play, including conversations, lectures, or lengthy reading     \n\n3.\tNot seem to listen when spoken to directly     \n\n4.\tNot follow through on instructions and fail to finish schoolwork, chores, or duties in the workplace or start tasks but quickly lose focus and get easily sidetracked     \n\n4. \tHave problems organizing tasks and activities, such as what to do in sequence, keeping materials and belongings in order, having messy work and poor time management, and failing to meet deadlines     \n\n5. \tAvoid or dislike tasks that require sustained mental effort, such as schoolwork or homework, or for teens and older adults, preparing reports, completing forms or reviewing lengthy papers     \n\n6. \tLose things necessary for tasks or activities, such as school supplies, pencils, books, tools, wallets, keys, paperwork, eyeglasses, and cell phones     \n\n7. \tBe easily distracted by unrelated thoughts or stimuli     \n\n8. \tBe forgetful in daily activities, such as chores, errands, returning calls, and keeping appointments" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dp"
+        android:text="2. Hyperactivity-Impulsivity"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dp"
+        android:text="People with symptoms of hyperactivity-impulsivity may often:      \n\n1.\tFidget and squirm in their seats     \n\n2. \tLeave their seats in situations when staying seated is expected, such as in the classroom or in the office     \n\n3. \tRun or dash around or climb in situations where it is inappropriate or, in teens and adults, often feel restless     \n\n4. \tBe unable to play or engage in hobbies quietly     \n\n5. \tBe constantly in motion or “on the go,” or act as if “driven by a motor”     \n\n6. \tTalk nonstop     \n\n7. \tBlurt out an answer before a question has been completed, finish other people’s sentences, or speak without waiting for a turn in conversation     \n\n8. \tHave trouble waiting his or her turn     \n\n9. \tInterrupt or intrude on others, for example in conversations, games, or activities\n\nDiagnosis of ADHD requires a comprehensive evaluation by a licensed clinician, such as a pediatrician, psychologist, or psychiatrist with expertise in ADHD. For a person to receive a diagnosis of ADHD, the symptoms of inattention and/or hyperactivity-impulsivity must be chronic or long-lasting, impair the person’s functioning, and cause the person to fall behind normal development for his or her age. The doctor will also ensure that any ADHD symptoms are not due to another medical or psychiatric condition. Most children with ADHD receive a diagnosis during the elementary school years. For an adolescent or adult to receive a diagnosis of ADHD, the symptoms need to have been present prior to age 12.  \n\nADHD symptoms can appear as early as between the ages of 3 and 6 and can continue through adolescence and adulthood. Symptoms of ADHD can be mistaken for emotional or disciplinary problems or missed entirely in quiet, well-behaved children, leading to a delay in diagnosis. Adults with undiagnosed ADHD may have a history of poor academic performance, problems at work, or difficult or failed relationships.  \n\nADHD symptoms can change over time as a person ages. In young children with ADHD, hyperactivity-impulsivity is the most predominant symptom. As a child reaches elementary school, the symptom of inattention may become more prominent and cause the child to struggle academically. In adolescence, hyperactivity seems to lessen and may show more often as feelings of restlessness or fidgeting, but inattention and impulsivity may remain. Many adolescents with ADHD also struggle with relationships and antisocial behaviors. Inattention, restlessness, and impulsivity tend to persist into adulthood." />
+        </LinearLayout>></RelativeLayout></ScrollView>

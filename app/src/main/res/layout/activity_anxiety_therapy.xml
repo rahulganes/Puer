@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView_anxiety"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".Anxiety_symptoms">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_anxiety"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_anxiety"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:id="@+id/therapy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="Treatment and Therapy"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="191dp"
+                android:layout_height="227dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anxiety_therapy" />
+
+
+            <TextView
+                android:id="@+id/psychotherapy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/LinearLayout_anxiety"
+                android:layout_marginLeft="20dp"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:text="Psychotherapy"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/pyschotherapy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Psychotherapy or “talk therapy” can help people with anxiety disorders. To be effective, psychotherapy must be directed at the person’s specific anxieties and tailored to his or her needs."></TextView>
+            <WebView
+                android:id="@+id/yt_anxiety_therapy_1"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/cognitive_behavioral_therapy"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Cognitive Behavioral Therapy"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cognitive_behavioral_therapy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="Cognitive Behavioral Therapy (CBT) is an example of one type of psychotherapy that can help people with anxiety disorders. It teaches people different ways of thinking, behaving, and reacting to anxiety-producing and fearful objects and situations. CBT can also help people learn and practice social skills, which is vital for treating social anxiety disorder.\n\nCognitive therapy and exposure therapy are two CBT methods that are often used, together or by themselves, to treat social anxiety disorder. Cognitive therapy focuses on identifying, challenging, and then neutralizing unhelpful or distorted thoughts underlying anxiety disorders. Exposure therapy focuses on confronting the fears underlying an anxiety disorder to help people engage in activities they have been avoiding. Exposure therapy is sometimes used along with relaxation exercises and/or imagery.\n\nCBT can be conducted individually or with a group of people who have similar difficulties. Often “homework” is assigned for participants to complete between sessions."></TextView>
+
+            <TextView
+                android:id="@+id/support_groups"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Support Groups"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/prd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="Some people with anxiety disorders might benefit from joining a self-help or support group and sharing their problems and achievements with others. Internet chat rooms might also be useful, but any advice received over the internet should be used with caution, as Internet acquaintances have usually never seen each other and what has helped one person is not necessarily what is best for another. You should always check with your doctor before following any treatment advice found on the internet. Talking with a trusted friend or member of the clergy can also provide support, but it is not necessarily a sufficient alternative to care from a doctor or other health professional."></TextView>
+            <WebView
+                android:id="@+id/yt_anxiety_therapy_2"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/stress_management_techniques"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:includeFontPadding="false"
+                android:text="Stress Managaement Techniques"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/stm_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:maxLines="50"
+                android:includeFontPadding="false"
+                android:text="Stress management techniques and meditation can help people with anxiety disorders calm themselves and may enhance the effects of therapy. Research suggests that aerobic exercise can help some people manage their anxiety; however, exercise should not take the place of standard care and more research is needed."></TextView>
+
+            <WebView
+                android:id="@+id/yt_anxiety_therapy_3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="20dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

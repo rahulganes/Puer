@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#deefe0"
+    tools:context=".postActivity">
+
+    <include
+        android:id="@+id/update_post_page_toolbar"
+        layout="@layout/app_bar_layout"
+        />
+
+    <ImageButton
+        android:id="@+id/select_post_image"
+        android:layout_width="247dp"
+        android:layout_height="238dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/select_image" />
+
+    <EditText
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_post_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="Write about Something..."
+        android:inputType="textMultiLine"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/update_post_button"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttons_green"
+        android:padding="2dp"
+        android:text="Post"
+        android:textColor="#fff" />
+
+</RelativeLayout>
